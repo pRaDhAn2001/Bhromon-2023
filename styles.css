@@ -1,12 +1,11 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
-} 
-.header
-{
+}
+
+.header {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/sikkim-9.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/sikkim-9.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,13 +13,13 @@
     text-align: center;
     color: #fff;
 }
-.header img
-{
+
+.header img {
     width: 150px;
     float: left;
 }
-.login-btn
-{
+
+.login-btn {
     width: 100px;
     padding: 8px 0;
     outline: none !important;
@@ -30,8 +29,8 @@
     color: #fff;
     float: right;
 }
-.signin-btn
-{
+
+.signin-btn {
     width: 100px;
     padding: 8px 0;
     border: none !important;
@@ -40,19 +39,19 @@
     font-weight: 600;
     float: right;
 }
-.header h1
-{
+
+.header h1 {
     padding-top: 250px;
     padding-bottom: 0;
     font-size: 50px;
     color: #fff;
 }
-.header p
-{
+
+.header p {
     margin: 18px 0;
 }
-.input-group
-{
+
+.input-group {
     width: 90% !important;
     max-width: 500px;
     border-radius: 30px;
@@ -60,17 +59,17 @@
     margin: auto;
     padding: 2px;
 }
-.form-control
-{
+
+.form-control {
     border: 0 !important;
     border-radius: 30px !important;
     margin: auto;
     box-shadow: none !important;
 }
-.input-group-text
-{
+
+.input-group-text {
     width: 100px;
-    background-image: linear-gradient(#00ff7e,#1f3d90);
+    background-image: linear-gradient(#00ff7e, #1f3d90);
     border: 0 !important;
     color: #fff !important;
     padding: 15px !important;
@@ -78,22 +77,21 @@
     box-shadow: none !important;
 }
 
-.features
-{
+.features {
     padding: 100px 0;
 }
-h1
-{
+
+h1 {
     text-align: center;
     padding-bottom: 30px;
     color: brown;
 }
-.feature-img img
-{
+
+.feature-img img {
     width: 100%;
 }
-.price
-{
+
+.price {
     width: 60px;
     height: 60px;
     background: #ff5722;
@@ -101,17 +99,17 @@ h1
     font-weight: 600;
     border-radius: 40%;
     padding: 10px;
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
     position: absolute;
     left: 20px;
     bottom: -30px;
 }
-.feature-img
-{
+
+.feature-img {
     position: relative;
 }
-.rating
-{
+
+.rating {
     padding: 3px;
     float: right;
     background: #fff;
@@ -119,56 +117,56 @@ h1
     right: 0;
     position: absolute;
 }
-.features .fa
-{
+
+.features .fa {
     font-size: 15px;
     color: #ff5722;
 }
-.feature-details
-{
+
+.feature-details {
     padding: 30px;
     text-align: center;
 }
-.feature-details h4
-{
-    font-family:Arial, Helvetica, sans-serif;
+
+.feature-details h4 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-top: 20px;
 }
-.feature-details .fa
-{
+
+.feature-details .fa {
     margin-right: 6px;
 }
-.feature-box
-{
-    box-shadow: 0 0 10px 5px rgba(37,73,214,0.18);
+
+.feature-box {
+    box-shadow: 0 0 10px 5px rgba(37, 73, 214, 0.18);
     margin-bottom: 30px;
-}   
-.gallery
-{
-    padding: 100px 0;
-    background:wheat;
 }
-.gallery h1
-{
+
+.gallery {
+    padding: 100px 0;
+    background: wheat;
+}
+
+.gallery h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    color:sienna;
-    padding-top:0% !important;
+    color: sienna;
+    padding-top: 0% !important;
 }
-.gallery-box img
-{
+
+.gallery-box img {
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
-.gallery-box img:hover
-{
+
+.gallery-box img:hover {
     transform: scale(1.1);
 }
-.gallery-box h4
-{
+
+.gallery-box h4 {
     display: block;
     color: #fff;
     text-shadow: -2px 2px 2px #000;
@@ -178,16 +176,15 @@ h1
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.gallery-box
-{
+
+.gallery-box {
     position: relative;
     margin-bottom: 30px;
 }
 
-.banner
-{
+.banner {
     height: 80%;
     background-image: url(Images/kangchenjunga.jpg);
     background-position: center;
@@ -195,15 +192,15 @@ h1
     background-attachment: fixed;
     padding-top: 13%;
 }
-.banner-highlights
-{
+
+.banner-highlights {
     padding: 70px 0;
-    background:rgba(0,0,0,0.7);
-    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: justify;
     color: #fff;
 }
-.booking-btn
-{
+
+.booking-btn {
     width: 120px;
     padding: 8px 0;
     outline: none !important;
@@ -214,36 +211,34 @@ h1
     margin-top: 20px;
 }
 
-.users-feedback
-{
+.users-feedback {
     padding: 100px 0;
     margin-top: 0;
 }
-.users-feedback h1
-{
-    color:rgba(11, 4, 107, 0.929);
+
+.users-feedback h1 {
+    color: rgba(11, 4, 107, 0.929);
 }
-.user-review
-{
+
+.user-review {
     text-align: center;
-    box-shadow: 0 0 10px 0 rgba(0,0,100,0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.4);
     padding-bottom: 40px;
 }
-.user-review p
-{
+
+.user-review p {
     padding: 40px 10px 10px 10px;
 }
-.users-feedback img
-{
+
+.users-feedback img {
     width: 60px;
     height: 60px;
-    border-radius: 50%;    
+    border-radius: 50%;
     position: relative;
     margin: -30px 0 20px 40%;
 }
 
-.user-review p::before
-{
+.user-review p::before {
     display: block;
     position: absolute;
     font-size: 100px;
@@ -252,46 +247,71 @@ h1
     left: 44%;
     top: -20px;
 }
-.footer
-{
+
+.footer {
     padding: 100px 20px 15px;
-    background-image: linear-gradient(#2d557d,#9610fb);
+    background-image: linear-gradient(#2d557d, #9610fb);
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
 }
-.footer-logo
-{
+
+.footer-logo {
     width: 150px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.footer h3
-{
+
+.footer h3 {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 25px;
 }
-.footer p
-{
+
+.footer p {
     font-size: 12px;
     text-align: justify;
     padding-right: 35px;
 }
-.footer .row .fa
-{
+
+.footer .row .fa {
     padding-right: 20px;
     font-size: 15px;
 }
-.footer hr
-{
+
+.footer hr {
     margin-top: 10px;
     background: #efefef;
 }
-.fa-heart
-{
-    margin: 0 5px;
-    color: #f44336;
-}
-.footer .copyright
-{
+
+.footer .footer-text .copyright {
     text-align: center;
+}
+
+.footer .footer-text p {
+    font-size: 16px;
+    color: var(--bg-black-900);
+}
+
+.footer .footer-iconTop {
+   
+    float: right;
+    padding-bottom: 20px;
+}
+
+.footer .footer-iconTop a {
+    position: relative;
+    display: inline;
+    padding: .8rem;
+    background: #000000;
+    border: .2rem #ffffff;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.footer-iconTop a i {
+    font-size: 16px;
+    color: #e5c2ff;
 }
