@@ -10,12 +10,13 @@
     background-position: center;
     background-attachment: fixed;
     padding-top: 25px;
+    padding-bottom: 200px;
     text-align: center;
     color: #fff;
 }
 
 .header img {
-    width: 150px;
+    width: 120px;
     float: left;
 }
 
@@ -201,14 +202,21 @@ h1 {
 }
 
 .booking-btn {
-    width: 120px;
+    width: 180px !important;
     padding: 8px 0;
     outline: none !important;
     border: 2px solid #fff;
-    border-radius: 50px;
+    border-radius: 30px;
     background: transparent;
     color: #fff;
     margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.booking-btn:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(208, 206, 232, 0.15);;
 }
 
 .users-feedback {
